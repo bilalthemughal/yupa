@@ -1,0 +1,58 @@
+//  for jet-blog-smart-tiles
+.elementor-jet-blog-smart-tiles {
+	.jet-smart-tiles {
+		&__box-content {
+			align-self: flex-start;
+			text-align: center;
+			&-inner {
+				display: flex;
+				flex-direction: column-reverse;
+			}
+		}
+		&__box {
+			align-items: flex-end;
+		}
+	}
+}
+
+//  for jet-blog-smart-tiles-left-title
+.left.elementor-widget-jet-blog-smart-tiles {
+	.jet-smart-tiles {
+		&__box-content {
+			align-self: flex-end;
+			text-align: left;
+			margin-bottom: 18px;
+		}
+		&__box {
+			align-content: flex-end;
+		}
+	}
+}
+
+
+
+//  for jet-blog-smart-listing
+.elementor-jet-blog-smart-listing {
+	.jet-smart-listing {
+		&__post-content {
+			display: flex;
+			flex-direction: column;
+		}
+		&__meta {
+			order: 1;
+		}
+	}
+}
+
+
+//  for jet-blog-smart-listing-center
+.center.elementor-widget-jet-blog-smart-listing {
+	.jet-smart-listing__post-title {
+		text-align: center;
+	}
+	.jet-smart-listing__terms-link {
+		left: 50%;
+		top: 29%;
+		transform: translate(-50%,50%);
+	}
+}

@@ -1,0 +1,6 @@
+.subscribe-block__form .subscribe-block__submit--icon {
+	color: $regular_accent_color_1;
+}
+.subscribe-block__form .subscribe-block__submit--icon:hover {
+	color: $regular_accent_color_2;
+}

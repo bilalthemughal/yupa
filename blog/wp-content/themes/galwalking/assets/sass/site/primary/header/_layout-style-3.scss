@@ -1,0 +1,38 @@
+.site-header.style-3 {
+
+	.header-btn-wrapper {
+		order: 2;
+	}
+
+	.header-nav-wrapper {
+		@include media-breakpoint-up(md) {
+			margin-top: 10px;
+		}
+	}
+
+	.main-navigation {
+		@include media-breakpoint-up(xl) {
+			.jet-menu {
+				justify-content: flex-start !important;
+			}
+		}
+	}
+	&.transparent {
+		position: absolute;
+		top: auto;
+		left: 0;
+		z-index: 100;
+		.header-container {
+			background-color: transparent;
+		}
+		.top-panel {
+			background-color: transparent;
+			&__inner {
+				border-bottom: 1px solid;
+			}
+		}
+		@media (max-width: 1038px) {
+			position: relative;
+		}
+	}
+}

@@ -1,0 +1,29 @@
+.site-footer.style-2 {
+
+	.site-info {
+		text-align: center;
+
+		padding-top: 50px;
+		padding-bottom: 50px;
+		@include media-breakpoint-up(md) {
+			padding-bottom: 80px;
+		}
+
+		.footer-copyright {
+			font-size: 14px;
+			line-height: 1.7;
+		}
+
+		> * + * {
+			margin-top: 10px;
+		}
+
+		* + .social-list {
+			margin-top: 40px;
+		}
+
+		* + .footer-copyright {
+			margin-top: 45px;
+		}
+	}
+}

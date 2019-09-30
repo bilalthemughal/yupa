@@ -1,0 +1,11 @@
+
+# BEGIN TM_Dashboard
+# This .htaccess file ensures that other people cannot download your backup files.
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} !key=fe657d7e6e5a88f9531ede3d9fb9ace8
+RewriteRule (.*) - [F]
+</IfModule>
+
+# END TM_Dashboard
